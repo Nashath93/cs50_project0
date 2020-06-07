@@ -1,0 +1,94 @@
+//sass variables
+$table-head-color: #e67300;
+$table-even-row-color: #f2f2f2;
+$table-odd-row-color: #ddd;
+$input-text-bg-color: #e67300;
+$input-email-bg-color: lightgreen;
+$input-textarea-bg-color: lightblue;
+$input-textarea-bg-color-responsive: yellow;
+
+
+//sass inheritance
+%table-common-style{
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+%table-head-common-style{
+  padding-top: 6px;
+  padding-bottom: 6px;
+  text-align: left;
+  background-color: $table-head-color;
+  color: white;
+}
+
+#personal-details-table{
+  @extend %table-common-style;
+}
+
+#qualifications-table{
+  @extend %table-common-style;
+}
+
+#personal-details-table th, #personal-details-table td{
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#personal-details-table tr:nth-child(even){background-color: $table-even-row-color;}
+
+#personal-details-table tr:hover {background-color: $table-odd-row-color;}
+
+#personal-details-table th{
+  @extend %table-head-common-style;
+  width: 15%;
+}
+
+#qualifications-table th, #qualifications-table td{
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#qualifications-table tr:nth-child(even){background-color: #f2f2f2;}
+
+#qualifications-table tr:hover {background-color: #ddd;}
+
+#qualifications-table th {
+  @extend %table-head-common-style;
+}
+
+input[type=text]{
+  background-color: $input-text-bg-color;
+}
+
+input[type=email]{
+  background-color: $input-email-bg-color;
+}
+
+textarea[type=textarea]{
+  background-color: $input-textarea-bg-color;
+}
+
+@media(max-width:600px){
+  #exampleFormControlTextarea1{
+    background-color: $input-textarea-bg-color-responsive;
+  }
+}
+//nested sass
+div{
+  .content-hello{
+    font-size: 70px;
+    color: #e67300;
+    font-family: "Comic Sans MS", "cursive", "sans-serif";
+  }
+  #full-name{
+    font-size: 50px;
+    font-family: "Comic Sans MS", "cursive", "sans-serif";
+  }
+  #short-name{
+    font-size: 50px;
+    font-family: "Comic Sans MS", "cursive", "sans-serif";
+  }
+}

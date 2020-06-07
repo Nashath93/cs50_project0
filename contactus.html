@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css'>
     <link rel="stylesheet" type="text/css" href="css/custom-style.css">
+    <link rel="stylesheet" type="text/css" href="css/custom-sass.css">
 
 
     <title>My Webpage</title>
@@ -41,10 +42,29 @@
       </div>
     </div>
 
-    <div id="content" class="container-fluid content">
+    <div id="contact-content" class="container-fluid">
       <div class="container">
-        <p class="content-hello">Hello,</p>
-        <p class="content-me">I'm Mohamed Nashath.</p>
+        <form>
+          <div class="form-group">
+            <label for="firstname">First Name</label>
+            <input type="text" class="form-control" id="firstname" placeholder="Mohamed Nashath">
+          </div>
+          <div class="form-group">
+            <label for="lastname">Last Name</label>
+            <input type="text" class="form-control" id="lastname" placeholder="Mohamed Nasar">
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlInput1">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Message</label>
+            <textarea type="textarea" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <div class="form-group">
+            <button type="button" class="btn btn-primary">Submit</button>
+          </div>
+        </form>
       </div>
     </div>
 

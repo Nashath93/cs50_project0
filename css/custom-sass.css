@@ -1,0 +1,77 @@
+#qualifications-table, #personal-details-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+#qualifications-table th, #personal-details-table th {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  text-align: left;
+  background-color: #e67300;
+  color: white;
+}
+
+#personal-details-table th, #personal-details-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#personal-details-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#personal-details-table tr:hover {
+  background-color: #ddd;
+}
+
+#personal-details-table th {
+  width: 15%;
+}
+
+#qualifications-table th, #qualifications-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#qualifications-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#qualifications-table tr:hover {
+  background-color: #ddd;
+}
+
+input[type=text] {
+  background-color: #e67300;
+}
+
+input[type=email] {
+  background-color: lightgreen;
+}
+
+textarea[type=textarea] {
+  background-color: lightblue;
+}
+
+@media (max-width: 600px) {
+  #exampleFormControlTextarea1 {
+    background-color: yellow;
+  }
+}
+div .content-hello {
+  font-size: 70px;
+  color: #e67300;
+  font-family: "Comic Sans MS", "cursive", "sans-serif";
+}
+div #full-name {
+  font-size: 50px;
+  font-family: "Comic Sans MS", "cursive", "sans-serif";
+}
+div #short-name {
+  font-size: 50px;
+  font-family: "Comic Sans MS", "cursive", "sans-serif";
+}
+
+/*# sourceMappingURL=custom-sass.css.map */
