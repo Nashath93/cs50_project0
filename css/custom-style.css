@@ -1,0 +1,104 @@
+
+.custom-header-style{
+  background-color: #e67300;
+}
+
+#footer-copyrights-tag{
+  margin: 10px auto 10px auto;
+}
+
+#personal-details-table{
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+#personal-details-table th, #personal-details-table td{
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#personal-details-table tr:nth-child(even){background-color: #f2f2f2;}
+
+#personal-details-table tr:hover {background-color: #ddd;}
+
+#personal-details-table th{
+  padding-top: 6px;
+  padding-bottom: 6px;
+  text-align: left;
+  background-color: #e67300;
+  color: white;
+  width: 15%;
+}
+
+#qualifications-table{
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+#qualifications-table th, #qualifications-table td{
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#qualifications-table tr:nth-child(even){background-color: #f2f2f2;}
+
+#qualifications-table tr:hover {background-color: #ddd;}
+
+#qualifications-table th {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  text-align: left;
+  background-color: #e67300;
+  color: white;
+}
+
+.heading{
+  margin-top: 20px;
+}
+
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #e67300;
+  color: white;
+  text-align: center;
+}
+
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+.content{
+  margin-top: 15%;
+  margin-left: 20%;
+}
+
+.content-hello{
+  font-size: 70px;
+  color: #e67300;
+  font-family: "Comic Sans MS", "cursive", "sans-serif";
+}
+
+.content-me{
+  font-size: 50px;
+  font-family: "Comic Sans MS", "cursive", "sans-serif";
+}
+
+.blog-post{
+  margin-top: 30px;
+}
+
+.blog-post-heading{
+  margin-bottom: 20px;
+}
+
+#blog-body{
+  margin-top: 20px;
+}
